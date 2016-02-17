@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+
+<script src="validation.js"></script>
+</head>
+<body onload="firstfocus();">
+
+<form name='registration'">
+<ul>
+<li><label for="userid">User id [5 to 12 characters] :</label></li>
+<li><input type="text" name="userid" size="12" onblur="userid_validation(5,12)"/></li>
+<li><label for="passid">Password [7 to 12 characters] :</label></li>
+<li><input type="password" name="passid" size="12" onblur="passid_validation(7,12)"/></li>
+<li><label for="username">Name [Alphabates characters] :</label></li>
+<li><input type="text" name="username" size="50" onblur="allLetter()"/></li>
+<li><label for="address">Address [alphanumeric characters] :</label></li>
+<li><input type="text" name="address" size="50" onblur="alphanumeric()"/></li>
+<li><label for="country">Country [Must select a country] :</label></li>
+
+<li><label for="zip">ZIP Code [Numeric characters only] :</label></li>
+<li><input type="text" name="zip" onblur="allnumeric()"/></li>
+<li><label for="email">Email [Valid email] :</label></li>
+<li><input type="text" name="email" size="50" onblur="ValidateEmail()" /></li>
+
+
+<li><label for="desc">About [Optional] :</label></li>
+<li><textarea name="desc" id="desc"></textarea></li>
+<li><input type="submit" name="submit" value="Submit" onclick="alert('Form submitted successfully')" /></li>
+</ul>
+</form>
+</body>
+</html>

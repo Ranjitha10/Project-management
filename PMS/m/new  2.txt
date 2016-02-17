@@ -1,0 +1,29 @@
+student upload topic/file 
+Update phases
+
+sign up
+
+
+
+
+Evaluation for faculty
+
+View marks for students
+
+
+
+
+
+
+
+Student log in
+Faculty log in
+add 1 project
+student 1 chooses the project
+log out
+faculty allots guide
+faculty allots approved project
+log out
+student 2 log in
+faculty allots schedule.
+fac corrects
